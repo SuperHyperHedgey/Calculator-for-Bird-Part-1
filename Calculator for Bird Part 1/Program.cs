@@ -80,15 +80,7 @@ namespace Calculator_for_Bird_Part_1
             {
                 Console.WriteLine(e.Message);
             }
-            catch (InvalidOperationException e)
-            {
-                Console.WriteLine(e.Message);
-            }
             catch (ArgumentException e)
-            {
-                Console.WriteLine(e.Message);
-            }
-            catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }
