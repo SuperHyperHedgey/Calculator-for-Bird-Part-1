@@ -44,7 +44,6 @@ namespace Calculator_for_Bird_Part_1
             }
             
         }
-
         static void Success()
         {
             Console.WriteLine("Mathematics!");
