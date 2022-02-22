@@ -42,11 +42,13 @@ namespace Calculator_for_Bird_Part_1
                     Console.WriteLine("Operator is not a valid operator");
                     break;
             }
-            static void Success()
-            {
-                Console.WriteLine("Mathematics!");
-                Console.WriteLine("With this we can improve the pipeline!");
-            }
+            
+        }
+
+        static void Success()
+        {
+            Console.WriteLine("Mathematics!");
+            Console.WriteLine("With this we can improve the pipeline!");
         }
         static void Main(string[] args)
         {
