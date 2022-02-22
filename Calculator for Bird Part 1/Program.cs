@@ -69,14 +69,13 @@ namespace Calculator_for_Bird_Part_1
                 string num2 = Console.ReadLine();
                 int realNum2 = Convert.ToInt32(num2);
 
-                OperatorSwitch(opo, realNum1, realNum2);                                           
+                OperatorSwitch(opo, realNum1, realNum2);                                
             }
 
             catch (DivideByZeroException e)
             {
                 Console.WriteLine(e.Message);
             }
-
             catch (FormatException e)
             {
                 Console.WriteLine(e.Message);
@@ -93,7 +92,6 @@ namespace Calculator_for_Bird_Part_1
             {
                 Console.WriteLine(e.Message);
             }
-           
         }
     }
 }
