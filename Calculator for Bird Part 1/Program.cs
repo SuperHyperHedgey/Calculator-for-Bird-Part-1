@@ -42,7 +42,6 @@ namespace Calculator_for_Bird_Part_1
                     Console.WriteLine("Operator is not a valid operator");
                     break;
             }
-            
         }
         static void Success()
         {
