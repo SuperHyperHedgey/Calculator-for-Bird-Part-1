@@ -50,9 +50,8 @@ namespace Calculator_for_Bird_Part_1
         }
         static void Main(string[] args)
         {
-            try { 
-            
-
+            try 
+            { 
                 Console.WriteLine("You stumbled across a calculator in a cave. A message is on the top. ");
                 Console.WriteLine("Read? \nPress the action button to continue.");
                 Console.ReadLine();
