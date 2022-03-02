@@ -10,32 +10,26 @@ namespace Calculator_for_Bird_Part_1
             {
                 case "+":
                     Console.WriteLine(realNum1 + realNum2);
-                    Success();
                     break;
 
                 case "-":
                     Console.WriteLine(realNum1 - realNum2);
-                    Success();
                     break;
 
                 case "/":
                     Console.WriteLine(realNum1 / realNum2);
-                    Success();
                     break;
 
                 case "*":
                     Console.WriteLine(realNum1 * realNum2);
-                    Success();
                     break;
 
                 case "^":
                     Console.WriteLine(Math.Pow(realNum1,realNum2));
-                    Success();
                     break;
 
                 case "%":
                     Console.WriteLine(realNum1 % realNum2);
-                    Success();
                     break;
 
                 default:
@@ -69,7 +63,8 @@ namespace Calculator_for_Bird_Part_1
                 string num2 = Console.ReadLine();
                 int realNum2 = Convert.ToInt32(num2);
 
-                OperatorSwitch(opo, realNum1, realNum2);                                
+                OperatorSwitch(opo, realNum1, realNum2);
+                Success();
             }
 
             catch (DivideByZeroException e)
