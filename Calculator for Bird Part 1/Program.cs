@@ -29,7 +29,7 @@ namespace Calculator_for_Bird_Part_1
                     break;
 
                 case "^":
-                    Console.WriteLine(realNum1 ^ realNum2);
+                    Console.WriteLine(Math.Pow(realNum1,realNum2));
                     Success();
                     break;
 
