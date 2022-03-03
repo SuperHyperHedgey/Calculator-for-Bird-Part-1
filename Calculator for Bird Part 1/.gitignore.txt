@@ -1,0 +1,8 @@
+﻿#Binaries for programs and plugins
+main
+cal-from-memory
+*.Exe
+*.exe~
+*.so
+*.dylib
+*.dll
