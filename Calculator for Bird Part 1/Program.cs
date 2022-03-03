@@ -34,7 +34,7 @@ namespace Calculator_for_Bird_Part_1
 
                 default:
                     Console.WriteLine("Operator is not a valid operator");
-                    break;
+                    return;
             }
             Success();
         }
