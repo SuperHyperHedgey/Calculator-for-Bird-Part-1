@@ -36,6 +36,7 @@ namespace Calculator_for_Bird_Part_1
                     Console.WriteLine("Operator is not a valid operator");
                     break;
             }
+            Success();
         }
         static void Success()
         {
@@ -64,7 +65,7 @@ namespace Calculator_for_Bird_Part_1
                 int realNum2 = Convert.ToInt32(num2);
 
                 OperatorSwitch(opo, realNum1, realNum2);
-                Success();
+                
             }
 
             catch (DivideByZeroException e)
